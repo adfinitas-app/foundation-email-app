@@ -1,0 +1,44 @@
+@import '../settings';
+
+.email_pa_3 {
+    .d-inline-block {
+        display: inline-block;
+    }
+
+    .fs-normal {
+        font-size: 20px;
+    }
+
+    .fs-big {
+        font-size: 37px;
+    }
+
+    .text-red {
+        color: #E2001A;
+    }
+
+    .text-black {
+        color: #000;
+    }
+
+    .text-bold {
+        font-weight: bold;
+    }
+
+    .remise {
+        padding: 0 10%;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+
+    .view-mail-in-browser {
+		color: #666;
+		font-size: 12px;
+    }
+    
+    .bullet-list li {
+        margin-bottom: 15px;
+    }
+}

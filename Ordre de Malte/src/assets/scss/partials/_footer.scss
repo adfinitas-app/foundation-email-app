@@ -1,0 +1,30 @@
+.footer {
+	.spacer.footer-delimiter {
+		background-color: #d6d9dd;
+		border-radius: 5px;
+	}
+
+	.logo-conf {
+		display: inline-block;
+	}
+
+	.footer-right {
+		text-align: right;
+	}
+
+	.conformement {
+		font-size: 12px;
+		color: #596970
+	}
+}
+
+table.body table.container .menu-item.hide-for-large.don-conf {
+	@media only screen and (max-width: #{$global-breakpoint}) {
+		 display: inline-block !important;
+		 width: auto !important;
+
+		 a img {
+			height: 44px !important;
+		 }
+   }
+}
