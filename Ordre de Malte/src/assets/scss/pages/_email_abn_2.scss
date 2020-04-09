@@ -1,0 +1,66 @@
+@import '../settings';
+
+.email_abn_2 {
+    .d-inline-block {
+        display: inline-block;
+    }
+
+    .fs-normal {
+        font-size: 20px;
+    }
+
+    .fs-big {
+        font-size: 37px;
+    }
+
+    .text-red {
+        color: #E2001A;
+    }
+
+    .text-black {
+        color: #000;
+    }
+
+    .text-bold {
+        font-weight: bold;
+    }
+
+    .width-100 {
+        width: 100% !important;
+    }
+
+    a.text-center {
+        text-align: center;
+    }
+    
+    .view-mail-in-browser {
+		color: #666;
+		font-size: 12px;
+    }
+
+
+    .btn-group .left {
+        padding-left: 0;
+    }
+    .btn-group .right {
+        padding-right: 0;
+    }
+
+
+     // SMALL ONLY
+     @media only screen and (max-width: #{$global-breakpoint}) {
+        .sm-mb-1 {
+            margin-bottom: 10px;
+        }
+
+        .btn-group .left {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .btn-group .right {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+     }
+    
+}
