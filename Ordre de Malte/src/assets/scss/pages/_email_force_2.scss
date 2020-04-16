@@ -1,0 +1,83 @@
+.email_force_2 {
+    $urgency-color: #E2001A;
+
+    .d-inline-block {
+        display: inline-block;
+    }
+
+    .fs-normal {
+        font-size: 20px;
+    }
+
+    .fs-big {
+        font-size: 25px;
+    }
+
+    .text-urgency {
+        color: $urgency-color;
+    }
+
+    .text-black {
+        color: #000;
+    }
+
+    .text-bold {
+        font-weight: bold;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+
+    .view-mail-in-browser {
+		color: #666;
+		font-size: 12px;
+    }
+
+    .pb-0 {
+        padding-bottom: 0;
+    }
+
+    // SMALL ONLY
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        .small-text-center {
+            text-align: center !important;
+        }
+
+        .small-text-left {
+            text-align: left !important;
+        }
+
+        .small-text-right {
+            text-align: right !important;
+        }
+	}
+
+
+    .bandeau-covid {
+        background-color: $urgency-color;
+        color: white;
+
+        .columns {
+            padding: 20px;
+
+            &.left {
+                padding-right: 10px;
+
+                img {
+                    margin: 0 auto;
+                }
+            }
+
+            &.right {
+                padding-left: 10px;
+            }
+        }
+
+        .text {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+    }
+}
