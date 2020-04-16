@@ -1,0 +1,84 @@
+@import '../settings';
+
+.email_don_1 {
+    p {
+        font-family: Arial, sans-serif;
+    }
+
+    .d-inline-block {
+        display: inline-block;
+    }
+
+    .fs-normal {
+        font-size: 20px;
+    }
+
+    .fs-big {
+        font-size: 35px;
+    }
+
+    .text-red {
+        color: #E2001A;
+    }
+
+    .text-black {
+        color: #000;
+    }
+
+    .text-bold {
+        font-weight: bold;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+
+    .view-mail-in-browser {
+		color: #666;
+		font-size: 12px;
+    }
+
+    // SMALL ONLY
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        .small-text-center {
+            text-align: center !important;
+        }
+
+        .small-text-left {
+            text-align: left !important;
+        }
+
+        .small-text-right {
+            text-align: right !important;
+        }
+	}
+
+    .uppercase {
+        text-transform: uppercase;
+    }
+
+    .picto {
+        width: 58px;
+    }
+
+    .picto-description {
+        width: 542px;
+
+        p {
+            line-height: 1.1;
+            margin-bottom: 0;
+        }
+    }
+
+    .blue-color {
+        color: #344354;
+    }
+
+    .grey-color {
+        color: #4E4D4D;
+    }
+
+    .roboto {
+        font-family: Roboto, Arial, sans-serif;
+    }
+}

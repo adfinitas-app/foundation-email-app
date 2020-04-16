@@ -1,0 +1,157 @@
+@import '../settings';
+
+.email_don_4 {
+
+	.view-mail-in-browser {
+		color: #666;
+		font-size: 12px;
+	}
+
+	.bandeau-covid {
+		font-size: 24px;
+		font-weight: bold;
+		color: white;
+		margin-bottom: 0;
+		padding: 10px 0;
+	}
+
+	.bandeau-text {
+		font-size: 14px;
+		color: white;
+		margin-bottom: 0;
+		padding: 10px 0;
+	}
+
+	.pb-0 {
+		padding-bottom: 0;
+	}
+
+	.text-red {
+		color: $red;
+	}
+
+	.background-red {
+		background-color: $red;
+	}
+
+	.text-blue {
+		color: $blue;
+	}
+
+	.background-blue {
+		background-color: $blue;
+	}
+
+	.text-bold {
+		font-weight: bold;
+	}
+
+	ul.ul-cest {
+		li {
+			font-size: 20px;
+			margin-bottom: 20px;
+			color: $red;
+
+			.text-black {
+				color: #000000
+			}
+		}
+	}
+
+	p.title {
+		font-size: 14px;
+		color: #4e4d4d;
+	}
+
+	p.mesurez {
+		color: #fff;
+		font-size: 35px;
+	}
+
+	.spacer.rounded {
+		border-radius: 5px;
+	}
+
+	p.par-exemple {
+		color: #717c88;
+		font-size: 11px;
+		font-weight: bold;
+	}
+
+	.price-image {
+		display: inline-block;
+		border-radius: 50%;
+	}
+
+	p.vous-permettez {
+		color: white;
+		font-size: 20px;
+		padding-left: $text-padding
+	}
+
+	.button-donate {
+		border-radius: 15px;
+	}
+
+	.le-soutien {
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	p.pour {
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 1.1;
+	}
+
+	p.pour .nous-vous {
+		font-size: 35px;
+	}
+
+	p.text-advantage {
+		font-size: 20px;
+	}
+
+	.bloc-advantage {
+		min-height: 170px;
+	}
+
+	.border-right {
+		border-right: 3px solid #d6d9dd;
+	}
+
+	.col-left {
+		padding-right: 40px;
+	}
+
+	.col-right {
+		padding-left: 40px;
+	}
+
+	.bloc-advantage > div {
+		height: 50px;
+	}
+
+	.bloc-advantage:last-child p {
+		margin-bottom: 0;
+	}
+
+	.bloc-advantage:last-child {
+		min-height: auto;
+	}
+
+	.col-left .bloc-advantage:last-child > div img {
+		padding-top: 10px;
+	}
+
+	.bloc-advantage:last-child > div {
+		height: 55px;
+	}
+
+	@media only screen and (max-width: #{$global-breakpoint}) {
+		.col-right .pour{
+			margin-top: 40px !important;
+		}
+	}
+
+}
