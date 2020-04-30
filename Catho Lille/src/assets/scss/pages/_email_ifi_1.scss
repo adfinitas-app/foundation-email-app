@@ -1,0 +1,21 @@
+@import '../settings';
+
+.email_ifi_1 {
+    .txt {
+        font-size: 18px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    ul {
+        list-style-image: url("https://heroku-adfinitas-campaign.s3.amazonaws.com/Catho_Lille/Email_IFI+04_20/Email+1/dot.png");
+        padding-left: 15px;
+
+        li {
+            padding-left: 10px;
+            width: 75%;
+        }
+    }
+}

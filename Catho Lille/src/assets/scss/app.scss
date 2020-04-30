@@ -1,0 +1,13 @@
+@import 'settings';
+@import 'foundation-emails';
+
+.container.global-container {
+	width: 600px;
+	background-color: #fff;
+}
+
+@import 'pages/email_ifi_1';
+@import 'pages/email_ifi_2';
+
+@import 'partials/header';
+@import 'partials/footer';
