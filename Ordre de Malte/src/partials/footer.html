@@ -2,11 +2,17 @@
     <columns class="footer-col">
         <spacer size="6" class="footer-delimiter"></spacer>
         <spacer size="30"></spacer>
-
         <row>
-            <columns small="12" large="4">
-                <a href="{{ url_footer_logo }}"><img src="https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/Footer-email/logo.jpg"/></a>
+            {{#ifpage 'email_force_1' 'email_force_2' 'email_force_3' }}
+            <columns small="12" large="5">
+                <a href="{{ url_footer_logo }}"><img src="{{#default 'https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/Footer-email/logo.jpg' img_footer_logo }}{{/default}}"/></a>
             </columns>
+            {{/ifpage}}
+            {{#unlesspage 'email_force_1' 'email_force_2' 'email_force_3' }}
+            <columns small="12" large="4">
+                <a href="{{ url_footer_logo }}"><img src="{{#default 'https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/Footer-email/logo.jpg' img_footer_logo }}{{/default}}"/></a>
+            </columns>
+            {{/unlesspage}}
             <columns small="12" large="4">
                 <menu>
                     <item href="https://www.facebook.com/ordredemaltefrance/"><img src="https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/Footer-email/logo-facebook.jpg"/></item>
